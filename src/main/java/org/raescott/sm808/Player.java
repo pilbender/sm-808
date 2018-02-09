@@ -6,6 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Simple music player.  It too should have method extracted into interfaces
+ * to provide more implementations.  As in a player knows how to "play()"
+ * itself or play a loop.
+ *
+ * Time signature, tempo, and song are configured with a given instance.
+ * Those can be dependency injected or modified at any time for a given
+ * instance.
+ *
+ * Something that uses the Output interface is assumed, underneath we are
+ * using the DrumKit implemenation but that is not required.  Only a musical
+ * implemention of that Output interface is required.
+ *
  * @author Richard Scott Smith <pilbender@gmail.com>
  */
 public class Player {

@@ -1,6 +1,8 @@
 package org.raescott.sm808;
 
 /**
+ * Simple container class for a song's time signature.
+ *
  * @author Richard Scott Smith <pilbender@gmail.com>
  */
 public class TimeSignature {

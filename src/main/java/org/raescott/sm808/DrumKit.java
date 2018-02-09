@@ -1,6 +1,11 @@
 package org.raescott.sm808;
 
 /**
+ * Drumkit model which implements the Output interface.  As an implementation,
+ * it knows how to beat.  A strategy pattern is showcased here to allow the
+ * implementation to be changed, without changing other code, to output real
+ * sound as opposed to console output.
+ *
  * @author Richard Scott Smith <pilbender@gmail.com>
  */
 public enum DrumKit implements Output {

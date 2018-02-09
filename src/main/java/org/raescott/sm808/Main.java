@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * Nothing fancy here.  Simple configuration of the player's time signature, tempo, etc.
+ * A song riff is hard coded but it could easily be extended to consume a source file.
+ * Finally the player is started with 3 cycles of the riff.
+ *
  * @author Richard Scott Smith <pilbender@gmail.com>
  */
 public class Main {
