@@ -13,7 +13,12 @@ public class Main {
 		TimeSignature timeSignature = new TimeSignature(4, 4);
 		Player player = new Player();
 		player.setTimeSignature(timeSignature);
-		player.setTempo(128);
+		if (args.length > 0) {
+			// obviously more input validation is in order here.
+			player.setTempo(Integer.valueOf(args[0]));
+		} else {
+			player.setTempo(128);
+		}
 
 		// Construct the song, kind of arduous :-)
 		List<Step> song = new ArrayList<>();
