@@ -12,3 +12,6 @@ mvn test
 
 To run (artifact is in the "target" directory):
 java -jar sm-808-1.0-SNAPSHOT.jar
+
+To run at a different tempo:
+java -jar sm-808-1.0-SNAPSHOT.jar 500
